@@ -20,7 +20,7 @@ public class AccountActivityPage {
 
     @FindBy (xpath = "//thead/tr/th")
     public List<WebElement> accountColumnNames;
-
+//testing
     public String selectedOption(){
         Select accountsDropDown = new Select(showTransactionsAccount);
         return accountsDropDown.getFirstSelectedOption().getText();
